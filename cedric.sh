@@ -43,6 +43,6 @@ sed -i -e 's/lineage/'$rom/g AndroidProducts.mk
 cd "$OLDPWD"
 
 . build/envsetup.sh
-lunch $rom"_"$device
+lunch $rom"_"$device-user
 
 mka bacon -j$(nproc --all)
