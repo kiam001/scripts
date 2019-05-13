@@ -33,7 +33,7 @@ devicedir=device/$brand/$device
 cd $devicedir
 
 mv lineage_$device".mk" $rom"_"$device".mk"
-export newmk=$rom"_"$device".mk"
+newmk=$rom"_"$device".mk"
 
 #Renaming mks and rom stuff
 
